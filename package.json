@@ -1,0 +1,25 @@
+{
+  "name": "geolite2-to-postgresql-nodejs",
+  "version": "1.0.0",
+  "description": "download and import geolite2 geoip database to postgresql db",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mrZLab630 <mrz@mrzlab630.pw>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "zip-local": "^0.3.4"
+  }
+}
